@@ -1,0 +1,72 @@
+/* using Bootstrap CSS
+
+Bootstrap sets basic global display, typography, and link styles. Specifically, we:
+
+Set background-color: #fff; on the body
+Use the @font-family-base, @font-size-base, and @line-height-base attributes as our typographic base
+Set the global link color via @link-color and apply link underlines only on :hover
+
+For improved cross-browser rendering, we use Normalize.css
+*/
+
+a { color: white; text-decoration: none;}
+a:visited { color: white; text-decoration:  none;}
+a:hover { color: #dddd00; padding: #25b7c4; text-decoration: none;}
+
+
+
+body, html {
+    color: white;
+    align-items: center;
+
+  }
+
+
+.navbar-default {
+  background-color: white;
+}
+
+.navbar {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: 0;
+  margin-bottom: 0;
+  font-size: 100%;
+  letter-spacing: 15px;
+  color: black;
+}
+
+.nav-bottom {
+
+}
+
+span {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 100;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 0px;
+  padding: 3%;
+  background-color: black;
+}
+
+.brand {
+  margin-top: 50px;
+  margin-bottom: 45px;
+}
+
+.li {
+  
+}
+
+.black-background {
+  background-color: black;
+}
